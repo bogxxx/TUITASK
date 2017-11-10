@@ -2011,6 +2011,7 @@ GameObject:
   - component: {fileID: 1072931971}
   - component: {fileID: 1072931970}
   - component: {fileID: 1072931976}
+  - component: {fileID: 1072931974}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2093,6 +2094,17 @@ RectTransform:
   m_AnchoredPosition: {x: 5.7200084, y: 4.97999}
   m_SizeDelta: {x: 827.2, y: 417}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1072931974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1072931968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 358cfca5543686f439c7624e4394379d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &1072931976
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -377,10 +377,10 @@ RectTransform:
   m_Father: {fileID: 1439344990}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -355, y: 61}
-  m_SizeDelta: {x: 100, y: -592}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 243, y: -263}
+  m_SizeDelta: {x: 98.78712, y: 39.58123}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &291709389
 GameObject:
@@ -1484,6 +1484,7 @@ GameObject:
   - component: {fileID: 906522557}
   - component: {fileID: 906522556}
   - component: {fileID: 906522555}
+  - component: {fileID: 906522560}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1561,6 +1562,17 @@ Transform:
   m_Father: {fileID: 1439344990}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &906522560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 906522554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 358cfca5543686f439c7624e4394379d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &909681477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,10 +1797,10 @@ RectTransform:
   m_Father: {fileID: 113410188}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 60.400146, y: 34}
-  m_SizeDelta: {x: 416.1, y: 494.3}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -38.380707, y: 34}
+  m_SizeDelta: {x: 416.10336, y: 494.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965829035
 MonoBehaviour:
@@ -2088,8 +2100,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 310.85492, y: 357.6375}
-  m_SizeDelta: {x: 1224, y: 692}
+  m_AnchoredPosition: {x: 310.85492, y: 327.1375}
+  m_SizeDelta: {x: 1224, y: 631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1439344991
 MonoBehaviour:
@@ -2153,14 +2165,14 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 906522558}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2590,10 +2602,10 @@ RectTransform:
   m_Father: {fileID: 113410188}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 60.665, y: 215}
-  m_SizeDelta: {x: 351.27, y: 60.98}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 60.665, y: 175.41873}
+  m_SizeDelta: {x: 351.27, y: 60.977554}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1706419845
 AudioSource:

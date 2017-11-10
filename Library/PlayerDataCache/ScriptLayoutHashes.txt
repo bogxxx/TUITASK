@@ -149,3 +149,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 b6d71c95aaa62a0cfbf744f99e82021d Assembly-CSharp.dll:.UndoRedoScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LeftRotationScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ResolutionFixScript
