@@ -41,7 +41,7 @@ public class SaveLoadScript : MonoBehaviour
         return -1;
     }
     double electricity = -1;
-    string playerDataPath = "", path = "";
+    public static string playerDataPath = "", path = "";
     public static float[,] Saves = new float[155, 9];
     public static float[,,] matrix = new float[100, 100, 9];
     private GameObject[] pictureArray = new GameObject[1000];
@@ -638,7 +638,7 @@ public class SaveLoadScript : MonoBehaviour
         return 50;
     }
 
-    void Load()
+    public static void Load()
     {
         StreamReader dataReader = new StreamReader(playerDataPath);
         string[] stringdata = new string[9];
@@ -736,7 +736,7 @@ public class SaveLoadScript : MonoBehaviour
             if (GUI.Button(new Rect(Screen.width / 21, Screen.height / 4, Screen.width / 9, Screen.width / 50), "Подтвердить"))
             {
 
-                playerDataPath = "D:/" + path + ".db";
+                playerDataPath = Application.dataPath + path + ".db";
 
                 GUI.color = Color.cyan;
 
@@ -829,7 +829,7 @@ public class SaveLoadScript : MonoBehaviour
                     {
                         for (int y = 0; y < 11; y++)
                         {
-                            if (matrix[x, y, 2] == 6 || matrix[x, y, 2] == 3 || matrix[x, y, 2] == 1 || matrix[x, y, 2] == 2)
+                            if (matrix[x, y, 2] == 6 || matrix[x, y, 2] == 3 || matrix[x, y, 2] == 1 || matrix[x, y, 2] == 2 || matrix[x, y, 2] == 11 || matrix[x, y, 2] == 12)
                             {
                                 resistorsMatrixArr[x, y].resistorNum = matrix[x, y, 7];
                                 if ((matrix[x, y, 3] == 1 && matrix[x, y, 6] == 0) || (matrix[x, y, 3] == 0 && matrix[x, y, 6] == 1))

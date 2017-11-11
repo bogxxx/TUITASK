@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\LeftRotationScript.cs" />
     <Compile Include="Assets\Scripts\LoadScript.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
+    <Compile Include="Assets\Scripts\ReadoutEntryPoint.cs" />
     <Compile Include="Assets\Scripts\RedoScript.cs" />
     <Compile Include="Assets\Scripts\ResolutionFixScript.cs" />
     <Compile Include="Assets\Scripts\RightRotationScript.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets\UltimateMenus\Scripts\MenuController.cs" />
     <Compile Include="Assets\UltimateMenus\Scripts\MenuController_Paused.cs" />
     <Compile Include="Assets\UltimateMenus\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\UltimateMenus\Scripts\ResolutionFix.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UltimateMenus\Readme.txt" />
