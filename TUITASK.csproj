@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\BoardManager.cs" />
     <Compile Include="Assets\Scripts\Gauss.cs" />
     <Compile Include="Assets\Scripts\LabelScript.cs" />
+    <Compile Include="Assets\Scripts\Labs.cs" />
     <Compile Include="Assets\Scripts\LeftRotationScript.cs" />
     <Compile Include="Assets\Scripts\LoadScript.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
